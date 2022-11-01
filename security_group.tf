@@ -1,5 +1,5 @@
 resource "aws_security_group" "this" {
-  name = "allow_jenkins"
+  name = var.sg_name
 
   ingress {
     description      = "jenkins"

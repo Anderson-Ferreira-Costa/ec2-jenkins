@@ -4,6 +4,9 @@ variable "instance_type" {
 variable "ec2_name" {
   type = string
 }
+variable "sg_name" {
+  type = string
+}
 variable "iam_instance_profile" {
   type = string
 }
